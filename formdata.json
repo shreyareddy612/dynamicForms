@@ -1,0 +1,99 @@
+{
+  "formName": [
+    {
+      "formName": "Registration",
+      "id": 1
+    }
+  ],
+  "formdata": [
+    {
+      "fieldname": "Username",
+      "fieldtype": "text",
+      "requiredfield": "yes",
+      "placeholder": "enter your fullname",
+      "maxlength": "50",
+      "defaultvalue": "",
+      "validationmessage": "this is required field",
+      "id": 1
+    },
+    {
+      "fieldname": "Age",
+      "fieldtype": "number",
+      "requiredfield": "yes",
+      "placeholder": "enter your age",
+      "maxlength": "3",
+      "defaultvalue": "0",
+      "validationmessage": "this is required field",
+      "id": 2
+    },
+    {
+      "fieldname": "Address",
+      "fieldtype": "textarea",
+      "requiredfield": "yes",
+      "placeholder": "enter your address",
+      "maxlength": "300",
+      "defaultvalue": "N/A",
+      "validationmessage": "this is required field",
+      "id": 3
+    },
+    {
+      "fieldname": "Contact No",
+      "fieldtype": "number",
+      "requiredfield": "yes",
+      "placeholder": "enter your mobile no",
+      "maxlength": "10",
+      "defaultvalue": "",
+      "validationmessage": "this is required field",
+      "id": 4
+    },
+    {
+      "fieldname": "Email id",
+      "fieldtype": "email",
+      "requiredfield": "yes",
+      "placeholder": "enter your email id",
+      "maxlength": "100",
+      "defaultvalue": "",
+      "validationmessage": "this is required field",
+      "id": 5
+    },
+    {
+      "fieldname": "name1",
+      "placeholder": "enter new name",
+      "fieldtype": "text",
+      "requiredfield": "Yes",
+      "defaultvalue": [
+        "1",
+        "2"
+      ],
+      "maxlength": "100",
+      "validationmessage": "please type",
+      "id": 6
+    },
+    {
+      "fieldname": "name2",
+      "placeholder": "place2",
+      "fieldtype": "number",
+      "requiredfield": "Yes",
+      "defaultvalue": [
+        "1",
+        "2"
+      ],
+      "maxlength": "50",
+      "validationmessage": "yes, required",
+      "id": 7
+    },
+    {
+      "fieldname": "age2",
+      "placeholder": "enter age",
+      "fieldtype": "number",
+      "requiredfield": "No",
+      "defaultvalue": [
+        "1",
+        "2"
+      ],
+      "maxlength": "30",
+      "validationmessage": "enter ",
+      "id": 8
+    }
+  ]
+}
